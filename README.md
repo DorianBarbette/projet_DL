@@ -1,5 +1,6 @@
 # Emotion Recognition in Speech
 ## Objectives
+
 This is another Deep Learning (DL) project where the primary focus is on processing audio data. Vocal emotion recognition aims to identify and interpret user emotions and deduce emotional states from speech. To train such an algorithm, you need to primarily use training data in the form of audio data. This system takes user speech as input. 
 
 This project requires the RAVDESS dataset to train the machine learning model with various types of audio. The RAVDESS dataset (Ryerson Audio-Visual Database of Emotional Speech and Song) contains 7356 files with voice samples from 24 professional actors (12 females, 12 males). It includes different speech intensities, such as joyful, calm, angry, sad, surprised, fearful, and disgusted expressions, as well as songs with various emotions, such as sad ones.
@@ -27,6 +28,17 @@ Statement “dogs” (02)
 Female, as the actor ID number is even.
 APPENDIX 2: The TESS dataset
 
-## ?
+## Bibliography
 
-In this project, to general Python libraries like NumPy, Pyaudio, and Pandas, we will also use Librosa. Librosa is a Python library for analyzing audio data and music files.
+In this project, to general Python libraries like NumPy, Pyaudio, and Pandas, we will also use [Librosa](https://librosa.org/doc/latest/index.html). Librosa is a Python library for analyzing audio data and music files.
+
+We have multiple inspirations : 
+[Github](https://github.com/Data-Science-kosta/Speech-Emotion-Classification-with-PyTorch/blob/master/notebooks/parallel_cnn_attention_lstm.ipynb) similar project
+[Kaggle](https://www.kaggle.com/code/yassineghouzam/introduction-to-cnn-keras-0-997-top-6) good example of a CNN
+[Kaggle](https://www.kaggle.com/code/moghazy/guide-to-cnns-with-data-augmentation-keras) to do data augmentation
+
+## Project team
+
+BARBETTE Dorian
+CHRISTEN Raphaël
+MARIE Alexis
